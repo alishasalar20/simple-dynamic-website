@@ -12,7 +12,7 @@ const Info = () => {
         <p className="text-blue-600 font-serif text-lg leading-relaxed">
           Water conservation is the practice of using water efficiently to
           reduce unnecessary water usage. With the increasing global water
-          scarcity, it's essential to act responsibly and conserve water
+          scarcity, it&apos;s essential to act responsibly and conserve water
           resources for future generations.
         </p>
       </div>
@@ -57,11 +57,13 @@ const Info = () => {
 
       {/* Image */}
       <div className="mt-10 flex justify-center">
-       <Image src="/w2.png"
+        <Image
+          src="/w2.png"
           alt="Water Conservation"
           width={600}
           height={600}
-          className="w-full max-w-4xl rounded-lg shadow-lg"></Image>
+          className="w-full max-w-4xl rounded-lg shadow-lg"
+        />
       </div>
     </div>
   );
