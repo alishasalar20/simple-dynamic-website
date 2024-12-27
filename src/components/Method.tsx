@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Info = () => {
   return (
@@ -56,11 +57,11 @@ const Info = () => {
 
       {/* Image */}
       <div className="mt-10 flex justify-center">
-        <img
-          src="/w2.png"
+       <Image src="/w2.png"
           alt="Water Conservation"
-          className="w-full max-w-4xl rounded-lg shadow-lg"
-        />
+          width={600}
+          height={600}
+          className="w-full max-w-4xl rounded-lg shadow-lg"></Image>
       </div>
     </div>
   );
